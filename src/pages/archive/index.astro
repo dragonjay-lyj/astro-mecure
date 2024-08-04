@@ -29,7 +29,7 @@ const page: Page = {
         timeline: Object.keys(groupedByMonth).sort((a, b) => Number(b) - Number(a)).map(month => {
           const posts = groupedByMonth[month];
           return {
-            label: `${Number(month) + 1}月`,
+            label: `${Number(month) + 1} Month`,
             posts: posts.map((post) => ({
               title: post.title,
               image: post.image,
