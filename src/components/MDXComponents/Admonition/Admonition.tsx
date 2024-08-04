@@ -20,31 +20,31 @@ function getDefaultInfo(type: AdmonitionProps['type']) {
   switch (type) {
   case 'note':
     return {
-      title: '备注',
+      title: 'Note',
       icon: <IconPencilFill className='mr-2' />,
       className: styles.note
     };
   case 'info':
     return {
-      title: '信息',
+      title: 'Info',
       icon: <IconInformationFill className='mr-2' />,
       className: styles.info
     };
   case 'tip':
     return {
-      title: '提示',
+      title: 'Tip',
       icon: <IconBulbFill className='mr-2' />,
       className: styles.tip
     };
   case 'caution':
     return {
-      title: '注意',
+      title: 'Caution',
       icon: <IconAlertFill className='mr-2' />,
       className: styles.caution
     };
   case 'danger':
     return {
-      title: '危险',
+      title: 'Danger',
       icon: <IconFireFill className='mr-2' />,
       className: styles.danger
     };

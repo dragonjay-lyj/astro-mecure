@@ -14,7 +14,7 @@ export default function sortByProperty<T, K extends keyof T>(
         return (aProp - bProp) * coefficient;
       }
       if (typeof aProp === 'string' && typeof bProp === 'string') {
-        return aProp.localeCompare(bProp, 'zh-CN') * coefficient;
+        return aProp.localeCompare(bProp, 'en') * coefficient;
       }
       return 0;
     }

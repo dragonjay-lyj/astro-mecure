@@ -26,7 +26,7 @@ export default async function generateRssFeed(options: RssFeedOptions) {
     description: description,
     id: new URL(site).href,
     link: new URL(site).href,
-    language: "zh-CN",
+    language: "en",
     copyright: `Copyright © ${getYear(new Date())} ${author}`,
     image: favicon && new URL(favicon, site).href,
     favicon: favicon && new URL(favicon, site).href,

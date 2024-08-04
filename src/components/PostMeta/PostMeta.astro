@@ -42,13 +42,13 @@ const {
     client:load
   />}
   {readingTime && <div class='hidden md:flex items-center bg-gray-400/20 text-gray-600 dark:bg-gray-600/40 dark:text-gray-300 py-1 px-1.5 rounded-md'>
-    <IconTimeFill className='inline mr-1' />约{Math.ceil(readingTime ?? 0)}分钟
+    <IconTimeFill className='inline mr-1' />About {Math.ceil(readingTime ?? 0)} minutes
   </div>}
   {wordCount && <div class='hidden md:flex items-center bg-gray-400/20 text-gray-600 dark:bg-gray-600/40 dark:text-gray-300 py-1 px-1.5 rounded-md'>
-    <IconTextFill className='inline mr-1' />共{wordCount}字
+    <IconTextFill className='inline mr-1' />Total {wordCount} word
   </div>}
   {draft && <div class='hidden md:flex items-center bg-gray-400/20 text-gray-600 dark:bg-gray-600/40 dark:text-gray-300 py-1 px-1.5 rounded-md'>
-    <IconDocument />草稿
+    <IconDocument />Draft
   </div>}
   {author && <div class='flex items-center ml-auto bg-gray-400/20 text-gray-600 dark:bg-gray-600/40 dark:text-gray-300 py-1 px-1.5 rounded-md'>
     <IconUser className='inline mr-1' />{author.name}

@@ -12,7 +12,7 @@ export const AUTHORS_COLLECTION_NAME = 'authors'
 
 // constant for default vaules
 export const UNCATEGOTIZED_CAT = {
-  label: '未分类',
+  label: 'Uncategorized',
   slug: 'uncategorized',
   url: BASE_URL + 'categories/uncategorized'
 }

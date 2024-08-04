@@ -116,7 +116,7 @@ function renderSubtree(tree: InternalTreeNode, expandDepth: number, depth: numbe
         ) : tree.label
       }
       icon={<IconFolderFill width={15} height={15} />}
-      endIcon={<div className='text-xs px-1'>{tree.count}篇</div>}
+      endIcon={<div className='text-xs px-1'>{tree.count} articles</div>}
       defaultExpanded={depth <= expandDepth}
       key={tree.label}
     >
@@ -133,7 +133,7 @@ function renderSubtree(tree: InternalTreeNode, expandDepth: number, depth: numbe
                 </a>
               }
               icon={<IconGridFill width={15} height={15} />}
-              endIcon={<div className='text-xs px-1'>{child.count}篇</div>}
+              endIcon={<div className='text-xs px-1'>{child.count} articles</div>}
               key={child.label}
             />
           )
@@ -159,7 +159,7 @@ export default function CategoryTree({
   const tree = parseCategoriesToTree(categories);
   return (
     <div>
-      <h2 className='font-bold text-lg flex items-center p-2'><IconCategory className='w-5 h-5 mr-1' />分类树</h2>
+      <h2 className='font-bold text-lg flex items-center p-2'><IconCategory className='w-5 h-5 mr-1' />Category tree</h2>
       <TreeView className='plate-bg border-highlight p-2 rounded-xl overflow-hidden'>
         {
           tree.children.map(child => {
@@ -175,7 +175,7 @@ export default function CategoryTree({
                     </a>
                   }
                   icon={<IconGridFill width={15} height={15} />}
-                  endIcon={<div className='text-xs px-1'>{child.count}篇</div>}
+                  endIcon={<div className='text-xs px-1'>{child.count} articles</div>}
                   key={child.label}
                 />
               )

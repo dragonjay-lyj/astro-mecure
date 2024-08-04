@@ -8,38 +8,38 @@ import { searchModelOpen as searchModelOpenAtom } from '@/store/atoms';
 
 const defaultTranslations = {
   searchBox: {
-    resetButtonTitle: '清空输入',
-    resetButtonAriaLabel: '清空输入',
-    cancelButtonText: '取消',
-    cancelButtonAriaLabel: '取消',
+    resetButtonTitle: 'Clear the input',
+    resetButtonAriaLabel: 'Clear the input',
+    cancelButtonText: 'Cancel',
+    cancelButtonAriaLabel: 'Cancel',
   },
   startScreen: {
-    recentSearchesTitle: '最近搜索',
-    noRecentSearchesText: '没有最近搜索',
-    saveRecentSearchButtonTitle: '添加收藏',
-    removeRecentSearchButtonTitle: '删除记录',
-    favoriteSearchesTitle: '收藏',
-    removeFavoriteSearchButtonTitle: '删除收藏',
+    recentSearchesTitle: 'Recently searched',
+    noRecentSearchesText: 'No recent searches',
+    saveRecentSearchButtonTitle: 'Add a favorite',
+    removeRecentSearchButtonTitle: 'Delete the record',
+    favoriteSearchesTitle: 'Collection',
+    removeFavoriteSearchButtonTitle: 'Delete a collection',
   },
   errorScreen: {
-    titleText: '无法获取搜索结果',
-    helpText: '请检查网络连接是否有效',
+    titleText: 'Couldnt retrieve search results',
+    helpText: 'Please check your internet connection',
   },
   footer: {
-    selectText: '选中',
+    selectText: 'Selected',
     selectKeyAriaLabel: 'Enter key',
-    navigateText: '移动光标',
+    navigateText: 'Move the cursor',
     navigateUpKeyAriaLabel: 'Arrow up',
     navigateDownKeyAriaLabel: 'Arrow down',
-    closeText: '退出',
+    closeText: 'Exit',
     closeKeyAriaLabel: 'Escape key',
     searchByText: 'Search by',
   },
   noResultsScreen: {
-    noResultsText: '未找到结果: ',
-    suggestedQueryText: '请尝试搜索',
-    reportMissingResultsText: '确定应该有搜索结果?',
-    reportMissingResultsLinkText: '请给我们反馈.',
+    noResultsText: 'Nothing found for:',
+    suggestedQueryText: 'Try searching for something else',
+    reportMissingResultsText: 'Expecting results?',
+    reportMissingResultsLinkText: 'Let us know!',
   },
 };
 
@@ -77,7 +77,7 @@ export default function Search({
           appId={appId}
           apiKey={apiKey}
           indexName={indexName}
-          placeholder='请输入搜索文本...'
+          placeholder='What are you looking for?'
           translations={defaultTranslations}
           initialScrollY={window.scrollY}
           onClose={onClose}

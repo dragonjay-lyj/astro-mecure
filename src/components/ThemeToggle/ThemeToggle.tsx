@@ -47,13 +47,13 @@ function ThemeToggle({
         )} loop sideOffset={8} align='start' alignOffset={-8} collisionPadding={8}>
           <DropdownMenu.RadioGroup value={theme} onValueChange={value => setTheme(value as Theme)}>
             <DropdownMenu.RadioItem value='light' className={itemClassName}>
-              <IconSun className='h-4 w-4 mr-1' />浅色
+              <IconSun className='h-4 w-4 mr-1' />Light
             </DropdownMenu.RadioItem>
             <DropdownMenu.RadioItem value='dark' className={itemClassName}>
-              <IconMoon className='h-4 w-4 mr-1' />深色
+              <IconMoon className='h-4 w-4 mr-1' />Dark
             </DropdownMenu.RadioItem>
             <DropdownMenu.RadioItem value='auto' className={itemClassName}>
-              <IconDeviceDesktop className='h-4 w-4 mr-1' />跟随系统
+              <IconDeviceDesktop className='h-4 w-4 mr-1' />Auto
             </DropdownMenu.RadioItem>
           </DropdownMenu.RadioGroup>
         </DropdownMenu.Content>

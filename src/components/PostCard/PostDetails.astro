@@ -56,8 +56,8 @@ const {
       <IconCalendarFill className='mr-1' />
       <DateTime date={date} />
     </span>
-    { typeof wordCount === 'number' && <span class='flex items-center'><IconTextFill className='mr-1' />共{wordCount}字</span> }
-    { typeof readingTime === 'number' && <span class='flex items-center'><IconTimeFill className='mr-1' />约{readingTime}分钟</span> }
+    { typeof wordCount === 'number' && <span class='flex items-center'><IconTextFill className='mr-1' />Total {wordCount} word</span> }
+    { typeof readingTime === 'number' && <span class='flex items-center'><IconTimeFill className='mr-1' />About {readingTime} minutes</span> }
   </div>
   <a href={url} class={twMerge(
     'p-1 py-1 text-xl font-bold truncate md:text-2xl',

@@ -60,7 +60,7 @@ async function getPosts(): Promise<Post[]> {
     const updateDate = post.data.updateDate ?? getFileUpdateTime(getPostPath(post.id));
     return {
       slug: post.data.permalink ?? post.slug,
-      title: post.data.title ?? '无标题',
+      title: post.data.title ?? 'No title',
       url: postUrl(post.slug),
       author: author,
       image: post.data.image,

@@ -8,7 +8,7 @@ const categories = (await getCategories()).sort((a, b) => b.count - a.count);
 
 const page: Page = {
   type: 'categories',
-  title: '分类',
+  title: 'Category',
   categories,
 }
 ---

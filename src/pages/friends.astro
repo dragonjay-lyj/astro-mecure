@@ -5,9 +5,9 @@ import Friend from '@/components/Friend';
 import { getCollection } from 'astro:content';
 import { FRIENDS_COLLECTION_NAME } from '@/constants';
 const page: Page = {
-  title: '友情链接',
-  description: '「花径不曾缘客扫，蓬门今始为君开」',
-  image: import('src/assets/friends-bg.jpg'),
+  title: 'Friendship Links',
+  description: '「My humble abode has never seen such esteemed guests, the door is always open to friends like you.」',
+  image: import('src/assets/friends-bg.avif'),
 }
 const friendEntries = await getCollection(FRIENDS_COLLECTION_NAME);
 ---
@@ -20,7 +20,7 @@ const friendEntries = await getCollection(FRIENDS_COLLECTION_NAME);
   hasSidebar={false}
 >
   <section class="mb-6 not-prose">
-    <h2 class="text-xl font-bold mb-3">我的朋友</h2>
+    <h2 class="text-xl font-bold mb-3">Connect with Me</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {friendEntries.map(entry => (
         <Friend {...entry.data} />
@@ -28,10 +28,10 @@ const friendEntries = await getCollection(FRIENDS_COLLECTION_NAME);
     </div>
   </section>
   <section class="prose dark:prose-invert dark:prose-dark plate-bg border-highlight p-4 md:p-8 rounded-xl">
-    <p>虽然小站的建立不以传播为目的，但是仍然欢迎各位志同道合的朋友，如果你想要申请友链，这里有两种途径：</p>
+    <p>While this website isn't built for mass appeal, I welcome all kindred spirits! If you'd like to exchange friendly links, here are two ways to do so:</p>
     <ol>
-      <li>在本文下方留言，留下你的名称、网址、描述、头像链接、主题色、字体色；</li>
-      <li>在本站 <a href="https://github.com/izmttk/astro-mecure/pulls" target="_blank">github仓库</a> 提交一个 PR，在<code>\src\content\friends\</code>目录下添加一个<code>&ltyour-name&gt</your-name>.json</code>，参考其他人的文件内容即可；</li>
+      <li>Leave a comment below with your website's name, URL, a brief description, avatar link, theme color, and font color.</li>
+      <li>Submit a pull request (PR) to this website's <a href="https://github.com/dragonjay-lyj/astro-mecure/pulls" target="_blank">GitHub repository</a>. Add a <code>&ltyour-name&gt</your-name>.json</code>file to the<code>\src\content\friends\</code>directory,following the format of the existing files.</li>
     </ol>
   </section>
 </PageLayout>

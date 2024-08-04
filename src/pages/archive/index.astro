@@ -14,7 +14,7 @@ const groupedByYear = groupBy(allPosts, post => getYear(post.date));
 
 const page: Page = {
   type: 'archive',
-  title: '归档',
+  title: 'Archive',
   posts: allPosts
 }
 ---
@@ -25,7 +25,7 @@ const page: Page = {
       const posts = groupedByYear[year];
       const groupedByMonth = groupBy(posts, post => getMonth(post.date));
       const config: ArchiveConfig = {
-        title: `${year}年`,
+        title: `${year} Year`,
         timeline: Object.keys(groupedByMonth).sort((a, b) => Number(b) - Number(a)).map(month => {
           const posts = groupedByMonth[month];
           return {

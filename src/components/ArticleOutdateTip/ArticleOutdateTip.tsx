@@ -1,5 +1,5 @@
 import { formatDistanceToNow, isAfter, subDays } from 'date-fns';
-import { zhCN } from 'date-fns/locale';
+import { enGB } from 'date-fns/locale';
 import IconInformationFill from '~icons/mingcute/information-fill';
 import { twMerge } from 'tailwind-merge';
 
@@ -16,7 +16,7 @@ export default function ArticleOutdateTip({
 }: ArticleOutdateTipProps) {
   const distance = formatDistanceToNow(updateDate, {
     addSuffix: true,
-    locale: zhCN
+    locale: enGB
   });
   return (
     isAfter(
@@ -28,7 +28,7 @@ export default function ArticleOutdateTip({
       className
     )} {...rest}>
       <IconInformationFill className='w-5 h-5 inline align-middle mr-2' />
-      <p className='inline align-middle'>本文最后一次更新于 {distance}，文中内容可能已经过时，请注意甄别。</p>
+      <p className='inline align-middle'>Please note: This article was last updated {distance}. The information presented may be outdated. Reader discretion is advised.</p>
     </div>
   )
 }

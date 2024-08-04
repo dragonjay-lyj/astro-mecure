@@ -11,22 +11,22 @@ body {
     @apply bg-transparent;
   }
   ::-webkit-scrollbar {
-    width: 6px; /*滚动条的宽度*/
-    height: 6px; /*滚动条的高度*/
+    width: 6px; 
+    height: 6px; 
   }
   ::-webkit-scrollbar-thumb {
     @apply rounded-full bg-gray-500/30;
   }
   ::-webkit-scrollbar-thumb:hover {
-    /*滚动条的hover样式*/
+    
     @apply bg-gray-500/50;
   }
   ::-webkit-scrollbar-thumb:active {
-    /*滚动条的点击样式*/
+    
     @apply bg-gray-500/70;
   }
   ::-webkit-scrollbar-corner {
-    /*滚动条的角落样式*/
+    
     @apply bg-transparent;
   }
 }

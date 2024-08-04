@@ -3,107 +3,71 @@ import { getYear } from 'date-fns';
 import { url } from '@/utils/url';
 
 const config: Config = {
-  title: '银河渡舟',
-  description: '浊以静之徐清，安以动之徐生。',
+  title: 'DragonJay',
+  description: 'Just as still water allows impurities to settle and clarity to return, so too does measured action bring forth peace and vitality from a state of tranquility.',
   author: 'Wider',
   favicon: url('favicon.ico'),
   navbar: {
     menu: [
       {
-        label: '首页',
+        label: 'Home',
         url: url('/'),
         icon: 'tabler:home'
       },
       {
-        label: '标签',
+        label: 'Tag',
         url: url('/tags'),
         icon: 'tabler:tag'
       },
       {
-        label: '分类',
+        label: 'Category',
         url: url('/categories'),
         icon: 'tabler:category'
       },
       {
-        label: '归档',
+        label: 'Archive',
         url: url('/archive'),
         icon: 'tabler:archive'
       },
       {
-        label: '友链',
+        label: 'Link',
         url: url('/friends'),
         icon: 'tabler:heart-handshake'
       },
       {
-        label: '关于',
+        label: 'About',
         url: url('/about'),
         icon: 'tabler:info-circle'
       },
-      // {
-      //   label: '菜单示例',
-      //   icon: 'tabler:menu-2',
-      //   children: [
-      //     { label: 'SubItem1', url: '#', icon: 'tabler:circle'},
-      //     { label: 'SubItem2', url: '#', icon: 'tabler:circle'},
-      //     {
-      //       label: 'SubItem3',
-      //       icon: 'tabler:menu-2',
-      //       children: [
-      //         { label: 'SubItem1', url: '#', icon: 'tabler:circle'},
-      //         { label: 'SubItem2', url: '#', icon: 'tabler:circle'},
-      //         { label: 'SubItem3', url: '#', icon: 'tabler:circle'},
-      //       ]
-      //     },
-      //   ]
-      // },
     ],
     hasSearchToggle: true,
     hasThemeToggle: true,
   },
   hero: {
-    background: import('src/assets/hero-bg.jpg'),
-    // title: '银河渡舟',
-    description: '欢迎来到银河渡舟的记事簿，看看最近我在折腾啥吧。',
+    background: import('src/assets/hero-bg.avif'),
+    description: 'Welcome to DragonJays corner of the internet! Lets dive into what Ive been working on recently.',
     logo: import('src/assets/logo.svg'),
   },
   sidebar: {
     widgets: [
       {
         name: 'profile',
-        author: '银河渡舟',
-        description: '浊以静之徐清，安以动之徐生',
-        avatar: import('src/assets/avatar.png'),
+        author: 'DragonJay',
+        description: 'Just as still water allows impurities to settle and clarity to return, so too does measured action bring forth peace and vitality from a state of tranquility.',
+        avatar: import('src/assets/avatar.avif'),
         background: import('src/assets/profile-bg.jpg'),
         socialIcons: [
           {
             label: 'github',
             color: '#7c8690',
             icon: 'tabler:brand-github',
-            url: 'https://github.com/izmttk'
-          },
-          {
-            label: 'bilibili',
-            color: '#fc87b2',
-            icon: 'tabler:brand-bilibili',
-            url: 'https://space.bilibili.com/293591084'
-          },
-          {
-            label: 'netease music',
-            color: '#ff4e6a',
-            icon: 'tabler:brand-netease-music',
-            url: 'https://music.163.com/user/390631653'
-          },
-          {
-            label: 'twitter',
-            color: '#1d9bf0',
-            icon: 'tabler:brand-twitter',
-            url: 'https://twitter.com/vviderx'
+            url: 'https://github.com/dragonjay-lyj'
           },
           {
             label: 'mail',
             color: '#7562c7',
             icon: 'tabler:mail',
-            url: 'mailto:widergao@gmail.com'
+            url: 'mailto:lyjcody@foxmail.com'
           }
         ],
       },
@@ -118,10 +82,6 @@ const config: Config = {
         sortBy: 'count',
         order: 'desc',
         expandDepth: 2,
-      },
-      {
-        name: 'component',
-        component: import('@/components/custom/Recommend.astro'),
       },
     ]
   },
@@ -138,52 +98,39 @@ const config: Config = {
     },
     license: {
       licenseName: 'CC BY-NC-SA 4.0',
-      licenseUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh',
-      infoText: '转载或引用本文时请注明作者及出处，不得用于商业用途。',
+      licenseUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+      infoText: 'This work is licensed for non-commercial use only. When reprinting or quoting, please credit the author and provide a link back to the original source.',
     }
   },
   comment: {
-    provider: 'giscus',
+    provider: 'waline',
     options: {
-      repo: 'izmttk/izmttk.github.io',
-      repoId: 'R_kgDOJIxtIQ',
-      category: 'General',
-      categoryId: 'DIC_kwDOJIxtIc4CU1cl',
-      mapping: 'pathname',
-      reactionsEnabled: '1',
-      emitMetadata: '0',
-      inputPosition: 'top',
-      lang: 'zh-CN',
-    },
-    // provider: 'waline',
-    // options: {
-    //   serverURL: 'https://waline-vercel.wider.ink/',
-    //   meta: ['nick', 'mail', 'link'],
-    //   requiredMeta: ['nick', 'mail'],
-    //   wordLimit: 200,
-    //   commentSorting: 'latest',
-    //   login: 'disable',
-    //   search: false,
-    //   copyright: false,
-    //   reaction: false,
-    //   emoji: [
-    //     '//unpkg.com/@waline/emojis@1.1.0/weibo',
-    //     '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-    //     // '//cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Coolapk/',
-    //   ],
-    // }
+      serverURL: 'https://com.dragonjay.top/',
+      meta: ['nick', 'mail', 'link'],
+      requiredMeta: ['nick', 'mail'],
+      lang: 'en',
+      search: true,
+      reaction: true,
+      commentSorting: 'latest',
+      emoji: [
+        'https://unpkg.com/@waline/emojis@1.2.0/bilibili',
+          'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
+          'https://unpkg.com/@waline/emojis@1.2.0/qq',
+          'https://unpkg.com/@waline/emojis@1.2.0/tieba',
+          'https://unpkg.com/@waline/emojis@1.2.0/weibo',
+          'https://unpkg.com/@waline/emojis@1.2.0/soul-emoji'
+      ],
+    }
   },
   footer: {
     links: [
-      { label: '更新日志', url: url('changelog')},
-      { label: '引用声明', url: url('reference')},
-      { label: '关于', url: url('about')},
-      { label: '归档', url: url('archive')},
-      { label: '友情链接', url: url('friends')},
-      { label: 'Github', url: 'https://github.com/izmttk'},
+      { label: 'About', url: url('about')},
+      { label: 'Archive', url: url('archive')},
+      { label: 'Link', url: url('friends')},
+      { label: 'Github', url: 'https://github.com/dragonjay-lyj'},
     ],
     declarations: [
-      `Copyright © ${getYear(new Date())} 银河渡舟 All Rights Reserved.`,
+      `Copyright © ${getYear(new Date())} DragonJay All Rights Reserved.`,
     ],
     generator: true,
     rss: true,
