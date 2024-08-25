@@ -4,8 +4,8 @@ import { url } from '@/utils/url';
 
 const config: Config = {
   title: 'DragonJay',
-  description: 'Just as still water allows impurities to settle and clarity to return, so too does measured action bring forth peace and vitality from a state of tranquility.',
-  author: 'Wider',
+  description: 'Turbidity subsides with stillness, yielding clarity; tranquility arises from motion, giving birth to life.',
+  author: 'DragonJay',
   favicon: url('favicon.ico'),
   navbar: {
     menu: [
@@ -53,7 +53,7 @@ const config: Config = {
       {
         name: 'profile',
         author: 'DragonJay',
-        description: 'Just as still water allows impurities to settle and clarity to return, so too does measured action bring forth peace and vitality from a state of tranquility.',
+        description: 'Turbidity subsides with stillness, yielding clarity; tranquility arises from motion, giving birth to life.',
         avatar: import('src/assets/avatar.avif'),
         background: import('src/assets/profile-bg.jpg'),
         socialIcons: [
@@ -99,7 +99,7 @@ const config: Config = {
     license: {
       licenseName: 'CC BY-NC-SA 4.0',
       licenseUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
-      infoText: 'This work is licensed for non-commercial use only. When reprinting or quoting, please credit the author and provide a link back to the original source.',
+      infoText: 'When reposting or quoting this article, please credit the author and source. Commercial use is prohibited.',
     }
   },
   comment: {
@@ -137,9 +137,9 @@ const config: Config = {
     sitemap: true,
   },
   algolia: {
-    appId: "1IIXBX6FGH",
-    apiKey: "91aa4234096f4963e33d53262340b1ec",
-    indexName: "wider",
+    appId: "4B98ITCGL0",
+    apiKey: "dde8d87d9e3c6ee354e56ccf8c9f1849",
+    indexName: "dragonjay",
   }
 }
 

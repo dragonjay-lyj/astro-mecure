@@ -28,7 +28,7 @@ export default function ArticleOutdateTip({
       className
     )} {...rest}>
       <IconInformationFill className='w-5 h-5 inline align-middle mr-2' />
-      <p className='inline align-middle'>Please note: This article was last updated {distance}. The information presented may be outdated. Reader discretion is advised.</p>
+      <p className='inline align-middle'>Last updated {distance} ago. Please be aware that the content may be outdated.</p>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import { getCollection } from 'astro:content';
 import { FRIENDS_COLLECTION_NAME } from '@/constants';
 const page: Page = {
   title: 'Friendship Links',
-  description: '「My humble abode has never seen such esteemed guests, the door is always open to friends like you.」',
+  description: '「The flower-lined path has never been swept for guests, yet for you, dear friend, I open my humble gate.」',
   image: import('src/assets/friends-bg.avif'),
 }
 const friendEntries = await getCollection(FRIENDS_COLLECTION_NAME);
@@ -28,10 +28,10 @@ const friendEntries = await getCollection(FRIENDS_COLLECTION_NAME);
     </div>
   </section>
   <section class="prose dark:prose-invert dark:prose-dark plate-bg border-highlight p-4 md:p-8 rounded-xl">
-    <p>While this website isn't built for mass appeal, I welcome all kindred spirits! If you'd like to exchange friendly links, here are two ways to do so:</p>
+    <p>Although this site is not intended for widespread dissemination, like-minded friends are always welcome. If you wish to request a link exchange, there are two ways to do so:</p>
     <ol>
-      <li>Leave a comment below with your website's name, URL, a brief description, avatar link, theme color, and font color.</li>
-      <li>Submit a pull request (PR) to this website's <a href="https://github.com/dragonjay-lyj/astro-mecure/pulls" target="_blank">GitHub repository</a>. Add a <code>&ltyour-name&gt</your-name>.json</code>file to the<code>\src\content\friends\</code>directory,following the format of the existing files.</li>
+      <li>Leave a message below with your name, website address, description, avatar link, theme color, and font color.</li>
+      <li>Alternatively, you can submit a pull request to my <a href="https://github.com/dragonjay-lyj/astro-mecure/pulls" target="_blank">GitHub repository</a>. In the directory `\\src\\content\\friends\\`, add a JSON file named `<your-name>.json`, Please refer to the existing files for formatting.</li>
     </ol>
   </section>
 </PageLayout>
