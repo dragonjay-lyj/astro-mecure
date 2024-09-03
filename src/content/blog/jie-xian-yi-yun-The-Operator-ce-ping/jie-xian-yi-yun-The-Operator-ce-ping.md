@@ -9,27 +9,27 @@ image: ./cover.avif
 
 ​![image](https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-25/02d40cc8-db93-4f5d-b059-193c3260a8e9.avif)
 
-> Highly recommended... A case of beer + this game can give you a perfect night, like putting you in an X-Files story. Worth the price.
+> Highly recommended····· A case of beer + this game can give you a perfect night, equivalent to putting you in an X-Files-like story. Worth the ticket price.
 > 
-> Crab | Neck Puff
+> Crab | Gill Neck Bulge
 
-> The music is truly fantastic, and the sound is a very important factor in the puzzle-solving aspect of this game, so there is no forced skip function, which is very unfriendly to players like me who are on multiple playthroughs... ( ) It's really short, but I think short can sometimes be an advantage for a tabletop game... because this type of game is too easy to get tired of (like the si-something lacra next door). If the presentation is well done, I don't think it matters if it's a bit short~? Besides, the operating system is very comfortable, one of the best I've ever played in a tabletop game. & When I switched to the English version, I found that HAL always makes typos, is this some kind of hint?
+> The music is truly fantastic, and the sound should be considered a very important factor in the puzzle-solving of this game, so there is no forced skip function, which is very unfriendly to players like me who are running multiple playthroughs...（） It's really short, but I think shortness can occasionally be an advantage for tabletop games... because this type is too easy to get tired of (like the si-something-lacra next door). If the presentation is well done, I don't think it matters if it's a bit short～？ Also, the operating system is very comfortable, among the best I've played in tabletop games. & Switching to the English version, I found that HAL always makes typos, what's the hint? (.)
 > 
 > Change some
 
-> The plot is above average, as I could pretty much guess it by the second day. However, whoever came up with the idea of enhancing the sound effects with blurred vision deserves a raise - it elevates the entire game. It's impressive that such a small team can deliver such outstanding presentation and sound effects.
+> The plot is medium to upper because I feel like I can guess it by the second day, but who came up with the idea of blurring the vision and enhancing the sound effects, which instantly elevated the whole game. It's amazing that such a small team can produce such outstanding performances and sound effects.
 > 
-> Top of the class in Slighting
+> Slytherin's Top Student
 
-> This game is so much fun, it's just too short. The gameplay is full of surprises and unexpected twists that had me gasping. I was completely immersed and hope to see more games like this.
+> This game is so much fun, it's just too short. The game is full of surprises and unexpected events that make you can't help but exclaim. I was completely immersed and hope there will be more games like this.
 > 
 > ChaoticStupid
 
-> Finally, a first-person detective game! I hope the atmosphere is dark and realistic enough.
+> Finally waiting for the first-person detective game! Hope the atmosphere is dark and real enough.
 > 
 > Rinulya
 
-> Finished it, really good! It took about 4 hours to complete, a great game. The only downside is that there is no Russian language option, but you can always use your phone to translate!
+> Finished playing, it's really good! The process is about 4 hours, a great game. The downside is that there is no Russian, but you can translate it with your phone!
 > 
 > pt1chkin
 
@@ -37,41 +37,41 @@ image: ./cover.avif
 
 🕵️‍♀️ **My Opinion** 🕵️‍♂️
 
-This text-heavy game demands considerable reading and incorporates light interaction through code input and bomb defusal. Currently, there's only one ending and four hidden Easter eggs, with no alternate endings triggered even after full collection.
+This text-based game requires a certain amount of reading and combines it with a small number of operations (entering code, defusing bombs). Currently, there is only one ending and 4 hidden easter eggs, even if you collect them all, it will not trigger a hidden ending.
 
-🖥️ The game interface emulates the FBI (FDI in-game) experience, offering strong immersion. Players assume the role of an operator, utilizing computer software and analytical skills to resolve various incidents.
+🖥️ The game's operating interface simulates the FBI (FDI in the game), providing a strong sense of immersion. Players act as operators, helping to solve various problems through computer software and information analysis.
 
-🔍 As the title suggests, this is a puzzle-solving game devoid of horror elements. Character relationships, initially clear, become increasingly complex, leaving even the protagonist's identity shrouded in mystery.
+🔍 The game's name suggests that it is a puzzle game with no horror elements. The relationship between the characters is clear in the early stage, but becomes confusing in the later stage, and even the identity of the protagonist becomes a mystery.
 
-🧪 The inclusion of specialized elements like material analysis software, bomb disposal manuals, and occasional code inputs enhances the game's realism.
+🧪 Some of the professional elements in the game, such as material analysis software and bomb disposal manuals, as well as the occasional need to enter code, enhance the realism of the game.
 
-🔮 Both the beginning and ending hint at a larger narrative, with the developers expressing interest in a sequel should funding allow.
+🔮 Both the beginning and the end of the game hint at more content, and the official said that if there is enough funding, a second part will be made.
 
-⏱️  The game lasts approximately 4 hours.
+⏱️ The game takes about 4 hours to play.
 
-⭐ **Personal Rating: 7/10**
+⭐ **Personal rating: 7/10**
 
-👍 **Recommendation Index: 4/5**
+👍 **Recommendation index: 4/5**
 
-💰 **Price: If you're interested, you might want to wait for a sale. I think it's worth it at $3 or less.**
+💰 **Evaluation: Friends who want to buy it may want to wait a bit longer, I feel that 20 yuan or less is more appropriate.**
 
-🧐 **As an avid player of suspense, reasoning, and puzzle games, I didn't have high expectations for this game at first.**
+🧐 **As a player who has been deeply involved in suspense, reasoning, and puzzle games, I didn't have high expectations for this game at first.**
 
 ✨ **Advantages:**
 
 * The puzzle design and cutscene presentation are quite interesting.
-* The cutscenes are mysterious and serve the plot well.
-* The foreshadowing and details are well-placed, with no obvious logical issues or bugs.
-* The puzzles are well-designed and not too difficult.
-* The gameplay is smooth.
+* The cutscene design is mysterious and serves the plot.
+* The foreshadowing and details are in place, and there are no obvious logical problems or bugs.
+* The puzzle design is good and the difficulty is not high.
+* The game flow is smooth.
 
 💢 **Disadvantages:**
 
-* Character dialogue cannot be fast-forwarded or skipped, you have to wait for the voice acting to finish.
-* The game cannot be saved manually, only autosaves.
-* The game does not pause when the settings menu is open.
-* The game is relatively short.
-
+* Character dialogue cannot be fast-forwarded or skipped and must wait for the voice to end.
+* The game cannot be saved manually, only automatically.
+* The game does not pause when opening the settings menu.
+* The process is short.
+  
 ### M-Site Rating
 
 Metascore：78
